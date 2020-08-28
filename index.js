@@ -280,5 +280,14 @@ const werewolf = new Humanoid({
 TASK 5 🚀
 // convert the constructor functions above to class syntax copy and paste the objects and console logs below the class syntax to test if your code is working
  */
-
+class Humanoid {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+    this.language = language;
+  }
+  language(language: greeting) {
+    console.log(`${this.name} offers a greeting in ${language}.`);
+  }
+}
 //I tried Googling how to do this but I don't understand how to do this. I honestly don't know where to start with this.
